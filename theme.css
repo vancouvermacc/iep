@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html,body,.container {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blueBar {
+    width: 100%;
+    height: 25px;
+    background-color: #005cb2;
+}
+
+.container .header {
+    height: 225px;
+    width: 100%;
+    background-color: #1e88e5;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.form {
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    margin-top: -140px;
+    width: 600px;
+    height: auto;
+    padding: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    position:relative;
+}
+
+.spacer {
+    height: 100px;
+}
+
+.form-header {
+    padding-bottom: 10px;
+}
+
+.bar {
+    background-color: #aeaeae;
+    height: 10px;
+}
+
+.title {
+    font-size: 32px;
+}
+.subtitle {
+    font-size: 18px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.input {
+    background-color: transparent;
+    position:relative; 
+    margin-bottom:3px; 
+}
+
+input {
+    background-color: transparent;
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:300px;
+    border:none;
+    border-bottom:1px solid #757575;
+    margin-left: 6px;
+}
+
+input:focus {
+    outline:none;
+    border-bottom:1px solid #1e88e5;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 2px;
+    font-size: 0.9em;
+    background-color: #fff;
+    color: #646464;
+}
+    
+.button.raised {
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+    
+.button.raised:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s;
+}
+    
+    /* Misc */
+.center {
+    text-align: center;
+}
