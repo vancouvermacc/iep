@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IEP Generator</title>
+        
+        <link rel="stylesheet" type="text/css" href="res/theme.css">
+        <link rel="shortcut icon" type="image/x-icon" href="http://i.ebayimg.com/images/i/320729353070-0-1/s-l1000.jpg" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="blueBar"></div>
+            <div class="header"></div>
+            <div class="form" id="form">
+                <div class="form-header">
+                    <div class="title">IEP Generator</div>
+                    <div class="description">
+                        <span>Generate IEP objectives, student strategies and teacher strategies by entering their 'numbers' in the respetive fields below. Click on 'Submit' below to generate the IEP. Click on 'Reset Fields' to clear all of the text fields.</span>
+                    </div>
+                </div>
+                <div class="form-questions">
+                    <div class="obj">
+                        <div class="subtitle">Objectives</div>
+                        <div class="input">
+                            <input type="text" placeholder="Autonomous Learning" id="obj-al" required />
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Numeracy" id="obj-num" required />
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Literacy" id="obj-lit" required />
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Project-Based Learning" id="obj-pbl" required />
+                        </div>
+                    </div><br />
+                    <div class="student-strategies">
+                        <div class="subtitle">Student Strategies</div>
+                        <div class="input">
+                            <input type="text" placeholder="Autonomous Learning" id="sS-al" required />
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Numeracy" id="sS-num" required />
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Literacy" id="sS-lit" required />
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Project-Based Learning" id="sS-pbl" required />
+                        </div>
+                    </div><br />
+                    <div class="teacher-strategies">
+                        <div class="subtitle">Teacher Strategies</div>
+                        <div class="input">
+                            <input type="text" placeholder="Autonomous Learning" id="tS-al" required />
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Numeracy" id="tS-num" required />
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Literacy" id="tS-lit" required />
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Project-Based Learning" id="tS-pbl" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-footer">
+                    <br />
+                    <div class="button raised" onclick="generate()">
+                        <div class="center" fit>SUBMIT</div>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;<a href="#" onclick="clearFields()">Reset Fields</a>
+                </div>
+            </div>
+            <div class="spacer"></div>
+        </div>
+    </body>
+    <script type="text/javascript" src="res/goals.js"></script>
+    <script type="text/javascript" src="res/generate.js"></script>
+</html>
